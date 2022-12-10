@@ -9,7 +9,7 @@
 4. Размещение исходного кода страницы
 5. Размещение странички на хостинге
 
-[Ссылка на личный репозиторий](https://github.com/DrjakinaViktorija/Internet-tehnology)
+[Ссылка на личный репозиторий](https://github.com/VorzhevDenis/Internet-tehnology)
 
 [Ссылка на личную страницу](https://drjakinaviktorija.github.io/Internet-tehnology/)
 ## ✅Лабораторная работа №2

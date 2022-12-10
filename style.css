@@ -1,0 +1,168 @@
+* {
+   box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+   width: 0;
+}
+
+body {
+   background-image: url(https://github.com/DrjakinaViktorija/Internet-tehnology/blob/main/zactavochka.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+   font-family: Roboto;
+   font-weight: 400;
+
+}
+
+p {
+   text-align: center;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 700;
+   padding-top: 10px;
+}
+
+p1 {
+   text-align: center;
+   position: relative;
+   top: 430px;
+   left: 540px;
+   font-size: 17px;
+   font-style: normal;
+   font-weight: bold;
+
+}
+
+.one {
+   position: absolute;
+   top: 2%;
+   left: 65%;
+}
+
+
+div.panel {
+   padding: 0 18px;
+   background-color: white;
+   display: none;
+}
+
+h1 {
+   font-weight: 500;
+   position: absolute;
+   top: 5%;
+   right: 480%;
+   color: #000000;
+   display: inline-block;
+   width: 200px;
+   height: 80px;
+   border: 2px solid #000;
+   font-size: 27px;
+   padding: 10px;
+   margin: 0;
+   line-height: 1;
+
+}
+
+h2 {
+   font-weight: 500;
+   position: absolute;
+   top: 60%;
+   right: 480%;
+   color: #000000;
+   display: inline-block;
+   width: 200px;
+   height: 80px;
+   border: 2px solid #000;
+   font-size: 27px;
+   padding: 10px;
+   margin: 0;
+   line-height: 1;
+}
+
+details>summary {
+   position: relative;
+   top: 115px;
+   padding: 10px;
+   margin-bottom: 8px;
+   background-color: #FFFFFF;
+   color: #191970;
+   border: thick double #32a1ce;
+   cursor: pointer;
+   font-size: 20px;
+   font-family: "Lucida Console", "Courier New", monospace;
+   font-weight: bold;
+   list-style-type: none;
+   /* задаем маркер*/
+}
+
+details>div {
+   border: 1px #ccc solid;
+   padding: 10px;
+}
+
+details[open]>summary {
+   position: relative;
+   top: 115px;
+   color: #FFFFFF;
+   background-color: #8A2BE2;
+}
+
+li {
+   font-size: 16px;
+   position: relative;
+   top: 115px;
+   list-style-type: none;
+   padding: 0 40 5;
+}
+
+li+li {
+   padding: 5 40 5;
+}
+
+.lab3 {
+   padding-left: 40px;
+   text-align: left;
+   padding-top: 110px;
+   font-size: 16px;
+   font-family: Roboto;
+   font-weight: 400;
+}
+
+.lab3__text {
+   font-size: 27px;
+   font-weight: 500;
+}
+
+.lab3__text2 {
+   font-size: 27px;
+   font-weight: 500;
+}
+
+.lab3__img {
+   text-align: center;
+}
+
+.table {
+   margin: auto;
+}
+
+div.panel {
+   padding: 0 18px;
+   display: none;
+   background-color: white;
+}
+
+
+#parentcanvas {
+   display: -webkit-flex;
+   display: -moz-flex;
+   display: -ms-flex;
+   display: -o-flex;
+   display: flex;
+   justify-content: center;
+   -ms-align-items: center;
+   align-items: center;
+}

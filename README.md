@@ -11,7 +11,7 @@
 
 [Ссылка на личный репозиторий](https://github.com/VorzhevDenis/Internet-tehnology)
 
-[Ссылка на личную страницу](https://drjakinaviktorija.github.io/Internet-tehnology/)
+[Ссылка на личную страницу]()
 ## ✅Лабораторная работа №2
 Разработка простого веб-приложения:
 

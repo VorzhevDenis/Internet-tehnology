@@ -1,0 +1,323 @@
+<meta charset=UTF-8 />
+<title>ФГБОУ ВО "МГТУ "СТАНКИН"</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <style type="text/css">
+      body {
+         background-color: #E6E6FA
+      }
+   </style>
+
+   <div class="one">
+      <img src="znak stankina.png" width="200px" height="200">
+      <h1> Воржев Денис </h1>
+      <h2> ИДМ-22-03 (ИГ) </h2>
+   </div>
+
+   <div>
+      <p> Лабораторные работы <br> по дисциплине <br> "Интернет-технологии" </p>
+
+      <details>
+         <summary>Лабораторная работа №1: Экосистема разработки программ с открытым кодом (github).</summary>
+
+
+         <li>Регистрация на Github.</li>
+         <li>Создание репозитория: <a href="https://github.com/VorzhevDenis/Internet-tehnology">
+               Laboratory_work-Dryakina</a></li>
+         <li>Создание личной страницы: <a href="https://github.com/VorzhevDenis">Страница пользователя Дрякина В.
+               С.</a></li>
+         <li>Размещение исходного кода страницы: <a
+               href="https://github.com/DrjakinaViktorija/Internet-tehnology/blob/main/index.html"> index.html</a>
+         <li>Размещение странички на хостинге: <a
+               href="https://drjakinaviktorija.github.io/Internet-tehnology/">Персональная страница Дрякина В. С.</a>
+         </li>
+      </details>
+   </div>
+
+
+
+   <div>
+      <details>
+         <summary>Лабораторная работа №2: Разработка простого веб-приложения (html,css,js + json,xml)</summary>
+
+
+         <li>Собрать команду для разработки веб-приложения и распределить роли.</li>
+         <li>Выполняется лабораторная в команде "Пушистики"</li>
+         <li>Распределение ролей также показано в Google-таблице: <a
+               href="https://docs.google.com/spreadsheets/d/1ypxgDUpNsaAK5PH90dTfGKdtDnWaeEDWfupEbDokN6A/edit"> Кондуит
+               ИДМ-22</a> </li>
+         <li>Ссылка на репозиторий проекта <a href="https://github.com/zhelnovandrew/IT_Project"> "Пушистики"</a></li>
+         <li>Ссылка на страницу проекта <a href="http://pyshok.tilda.ws/">Веб-приложение</a></li>
+      </details>
+   </div>
+
+
+
+   <div>
+      <details>
+         <summary>Лабораторная работа №3: Настройка локальной сети передачи данных</summary>
+
+         <p class="lab3">
+            Для выполнения лабораторной работы 3 потребовалось построить виртуальную локальную сеть в
+            Cisco Packet Tracer. <br> По итогу получилось создать сеть, состоящую из 4-х отделов, в которых вручную были
+            прописаны IP адреса, а также была реализована динамическая маршрутизация по протоколу RIP.
+         </p>
+         <p class="lab3__text">
+            Визуализация полученной сети.
+         </p>
+         <p>
+            <img class="lab3__img" src="LAB3.jpg" width="1252px" height="692">
+         </p>
+         <p class="lab3__text2">
+            Таблица данных об устройствах.
+         </p>
+         <div style="text-align: center;">
+            <table class="table" border="1" width="600">
+               <tr>
+                  <th><strong>Название устройства</strong></th>
+                  <th><strong>Интерфейс</strong></th>
+                  <th><strong>IP адрес</strong></th>
+                  <th><strong>Маска подсети</strong></th>
+                  <th><strong>Шлюз по умолчанию</strong></th>
+               </tr>
+               <tr>
+                  <th>PC-PT PC0</th>
+                  <th>Fa0</th>
+                  <th>192.168.32.1</th>
+                  <th>255.255.255.0</th>
+                  <th>192.168.32.254</th>
+               </tr>
+               <tr>
+                  <th>PC-PT PC1</th>
+                  <th>Fa0</th>
+                  <th>192.168.32.2</th>
+                  <th>255.255.255.0</th>
+                  <th>192.168.32.254</th>
+               </tr>
+               <tr>
+                  <th>PC-PT PC2</th>
+                  <th>Fa0</th>
+                  <th>192.168.32.3</th>
+                  <th>255.255.255.0</th>
+                  <th>192.168.32.254</th>
+               </tr>
+               <tr>
+                  <th>2960-24TT Switch2</th>
+                  <th>Fa0/4</th>
+                  <th>vlan 1</th>
+                  <th>255.255.255.0</th>
+                  <th>192.168.32.254</th>
+               </tr>
+               <tr>
+                  <th>2911 Router3</th>
+                  <th>Gig0/0</th>
+                  <th>192.168.32.254</th>
+                  <th>255.255.255.0</th>
+                  <th>RIP</th>
+               </tr>
+               <tr>
+                  <th>-</th>
+                  <th>-</th>
+                  <th>-</th>
+                  <th>-</th>
+                  <th>-</th>
+               </tr>
+               <tr>
+                  <th>PC-PT PC3</th>
+                  <th>Fa0</th>
+                  <th>192.168.25.4</th>
+                  <th>255.255.255.0</th>
+                  <th>192.168.25.254</th>
+               </tr>
+               <tr>
+                  <th>PC-PT PC4</th>
+                  <th>Fa0</th>
+                  <th>192.168.25.5</th>
+                  <th>255.255.255.0</th>
+                  <th>192.168.25.254</th>
+               </tr>
+               <tr>
+                  <th>PC-PT PC5</th>
+                  <th>Fa0</th>
+                  <th>192.168.25.6</th>
+                  <th>255.255.255.0</th>
+                  <th>192.168.25.254</th>
+               </tr>
+               <tr>
+                  <th>2960-24TT Switch4</th>
+                  <th>Fa0/1</th>
+                  <th>vlan 1</th>
+                  <th>255.255.255.0</th>
+                  <th>192.168.25.254</th>
+               </tr>
+               <tr>
+                  <th>2911 Router4</th>
+                  <th>Gig0/0</th>
+                  <th>192.168.25.254</th>
+                  <th>255.255.255.0</th>
+                  <th>RIP</th>
+               </tr>
+               <tr>
+                  <th>-</th>
+                  <th>-</th>
+                  <th>-</th>
+                  <th>-</th>
+                  <th>-</th>
+               </tr>
+               <tr>
+                  <th>PC-PT PC6</th>
+                  <th>Fa0</th>
+                  <th>192.168.35.7</th>
+                  <th>255.255.255.0</th>
+                  <th>192.168.35.254</th>
+               </tr>
+               <tr>
+                  <th>PC-PT PC7</th>
+                  <th>Fa0</th>
+                  <th>192.168.35.8</th>
+                  <th>255.255.255.0</th>
+                  <th>192.168.35.254</th>
+               </tr>
+               <tr>
+                  <th>PC-PT PC8</th>
+                  <th>Fa0</th>
+                  <th>192.168.35.9</th>
+                  <th>255.255.255.0</th>
+                  <th>192.168.35.254</th>
+               </tr>
+               <tr>
+                  <th>2960-24TT Switch3</th>
+                  <th>Fa0/4</th>
+                  <th>vlan 1</th>
+                  <th>255.255.255.0</th>
+                  <th>192.168.35.254</th>
+               </tr>
+               <tr>
+                  <th>2911 Router5</th>
+                  <th>Gig0/0</th>
+                  <th>192.168.35.254</th>
+                  <th>255.255.255.0</th>
+                  <th>RIP</th>
+               </tr>
+               <tr>
+                  <th>-</th>
+                  <th>-</th>
+                  <th>-</th>
+                  <th>-</th>
+                  <th>-</th>
+               </tr>
+               <tr>
+                  <th>2911 Router3</th>
+                  <th>Gig0/1</th>
+                  <th>172.27.0.1</th>
+                  <th>255.255.0.0</th>
+                  <th>RIP</th>
+               </tr>
+               <tr>
+                  <th></th>
+                  <th>Gig0/2</th>
+                  <th>172.18.0.1</th>
+                  <th>255.255.0.0</th>
+                  <th>RIP</th>
+               </tr>
+               <tr>
+                  <th>2911 Router4</th>
+                  <th>Gig0/1</th>
+                  <th>172.27.0.2</th>
+                  <th>255.255.0.0</th>
+                  <th>RIP</th>
+               </tr>
+               <tr>
+                  <th></th>
+                  <th>Gig0/2</th>
+                  <th>172.29.0.2</th>
+                  <th>255.255.0.0</th>
+                  <th>RIP</th>
+               </tr>
+               <tr>
+                  <th>2911 Router5</th>
+                  <th>Gig0/1</th>
+                  <th>172.18.0.2</th>
+                  <th>255.255.0.0</th>
+                  <th>RIP</th>
+               </tr>
+               <tr>
+                  <th></th>
+                  <th>Gig0/2</th>
+                  <th>172.29.0.1</th>
+                  <th>255.255.0.0</th>
+                  <th>RIP</th>
+               </tr>
+               <tr>
+                  <th>2960-24TT Switch0</th>
+                  <th>Fa0/1</th>
+                  <th>vlan 1</th>
+                  <th>255.255.0.0</th>
+                  <th>RIP</th>
+               </tr>
+               <tr>
+                  <th></th>
+                  <th>Fa0/2</th>
+                  <th>vlan 1</th>
+                  <th>255.255.0.0</th>
+                  <th>RIP</th>
+               </tr>
+               <tr>
+                  <th>2960-24TT Switch1</th>
+                  <th>Fa0/1</th>
+                  <th>vlan 1</th>
+                  <th>255.255.0.0</th>
+                  <th>RIP</th>
+               </tr>
+               <tr>
+                  <th></th>
+                  <th>Fa0/2</th>
+                  <th>vlan 1</th>
+                  <th>255.255.0.0</th>
+                  <th>RIP</th>
+               </tr>
+               <tr>
+                  <th>2960-24TT Switch5</th>
+                  <th>Fa0/1</th>
+                  <th>vlan 1</th>
+                  <th>255.255.0.0</th>
+                  <th>RIP</th>
+               </tr>
+               <tr>
+                  <th></th>
+                  <th>Fa0/2</th>
+                  <th>vlan 1</th>
+                  <th>255.255.0.0</th>
+                  <th>RIP</th>
+            </table>
+         </div>
+         <p><a href="lab3.pkt" download="">
+               <button>Скачать файл лабораторной работы</button>
+            </a>
+         </p>
+      </details>
+   </div>
+
+
+
+   <div>
+      <details>
+         <summary>Выбранный билет №</summary>
+
+
+         <li> Подготовить реферат: <a
+               href="https://github.com/stankin/inet-2022/wiki"> Ссылка на
+               билет</a></li>
+
+      </details>
+   </div>
+   </div>
+   <p1> "МГТУ "Станкин", 2022 год </p1>
+</body>
+
+</html>
